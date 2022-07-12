@@ -42,7 +42,11 @@ h1 {
 .title-background {
   height: 600px;
   background-color: #2f303a;
+  background-image: url();
 }
+/*   
+  image-overlay */
+
   .page-title {
     display: flex;
     flex-direction: column;
