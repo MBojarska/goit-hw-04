@@ -41,20 +41,22 @@ h1 {
 }
 .title-background {
   height: 600px;
-  background-color: #2f303a;
-  background-image: url();
+
 }
 /*   
   image-overlay */
 
-  .page-title {
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    background-color: #2f303a;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+.page-title {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background-color: #2f303a;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-image: url(https://github.com/MBojarska/goit-hw-04/blob/main/images/images/background1.jpg?raw=true);
+background-position: cover;
+max-width: 1600px;
 }
 a {
   text-decoration: none;
