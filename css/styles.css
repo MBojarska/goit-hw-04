@@ -157,6 +157,11 @@ nav a:hover {
 
   color: var(--agency-blue);
 }
+.mail::before
+{content: "";
+background-color: url(https://github.com/MBojarska/goit-hw-04/commit/f501512bab790ba89bc49450b26b3cca59926981#diff-b45641aff6ccf12e4c132fb238aea362e840a9f8e2b54938186dd92f5e218edb);
+}
+
 .contact {
   display: flex;
 }
