@@ -1,2 +1,2 @@
-# Goit-hw-02
-Druga praca domowa
+# Goit-hw-04
+Czwarta praca domowa
