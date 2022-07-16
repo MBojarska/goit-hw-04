@@ -26,12 +26,33 @@ body {
   color: var(--secondary-header-color);
   font-family: "Roboto";
 }
+.icon-contact {
+  fill: var(--agency-mediumgrey);
+  height: 32px;
+  width: 32px;
+padding-right: 10px;
+
+}
+
+.icon-contact:hover,
+.icon-contact:focus{
+  fill: var(--agency-blue)
+}
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 .section {
   padding: 94px 0;
+}
+.top{
+  display: flex;
+  align-items: baseline;
+}
+.top a {
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 .page-top {
   display: flex;
