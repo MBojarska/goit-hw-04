@@ -436,6 +436,7 @@ h3 {
   padding-right: 30px;
 }
 .social-footer {
+  display: flex;
   width: 206px;
   height: 80px;
   margin-top: 72px;
@@ -447,23 +448,23 @@ h3 {
   text-transform: uppercase;
   text-align: center;
   width: 200px;
-  display: inline-block;
+  display: block;
   padding-top: 30px;
-  line-height: 16px;
-  line-height: 16px;
-
   color: #ffffff;
 }
 
 .social-footer-item {
+
   display: flex;
   justify-content: center;
 }
 .social-footer-item svg {
   width: 44px;
   height: 44px;
+  fill: var(--reg-white);
   background-color: var(--agency-svg-background);
   border-radius: 50%;
+  padding: 5px;
 }
 .social-footer-item svg:hover {
   background-color: var(--agency-blue);
