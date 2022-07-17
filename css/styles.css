@@ -13,16 +13,17 @@
   --agency-grey: #2f303a;
   --agency-lightgrey: #f5f4fa;
   --reg-black: #000000;
+  --agency-background-color: #e5e5e5;
   --agency-mediumgrey: #757575;
   --secondary-header-color: #212121;
   --header-border: #ececec;
   --borders: #eeeeee;
   --agency-background: #202020;
-  --agency-svg-grey: #F5F4FA;
+  --agency-svg-grey: #f5f4fa;
   --agency-svg-background: rgba(255, 255, 255, 0.1);
 }
 body {
-  background-color: #e5e5e5;
+  background-color: var(--reg-white);
   color: var(--secondary-header-color);
   font-family: "Roboto";
 }
@@ -30,7 +31,7 @@ body {
   fill: var(--agency-mediumgrey);
   height: 32px;
   width: 32px;
-padding-right: 10px;
+  padding-right: 10px;
 }
 /* .mail::before{
   content: " ";
@@ -38,14 +39,15 @@ padding-right: 10px;
 } */
 
 .icon-contact:hover,
-.icon-contact:focus{
-  fill: var(--agency-blue)
+.icon-contact:focus {
+  fill: var(--agency-blue);
 }
-.lorem-icon{
-  width: 270px;
+.lorem-icon {
+  display: block;
+  align-content: center;
   height: 120px;
   background-color: var(--agency-svg-grey);
-  gap: 30px;
+  padding: 20px 80px;
 }
 .container {
   width: 1200px;
@@ -54,7 +56,7 @@ padding-right: 10px;
 .section {
   padding: 94px 0;
 }
-.top{
+.top {
   display: flex;
   align-items: baseline;
 }
@@ -92,12 +94,11 @@ h1 {
   display: flex;
   flex-direction: column;
   height: 600px;
-  background-color: var(--agency-grey);
+  background-color: var(--agency-background-color);
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-image:
-  url(https://github.com/MBojarska/goit-hw-04/blob/main/images/background1.jpg?raw=true);
+  background-image: url(https://github.com/MBojarska/goit-hw-04/blob/main/images/background1.jpg?raw=true);
   background-position: cover;
   max-width: 1600px;
 }
@@ -187,9 +188,9 @@ nav a:hover {
 
   color: var(--agency-blue);
 }
-.mail::before
-{content: "";
-background-color: url(https://github.com/MBojarska/goit-hw-04/commit/f501512bab790ba89bc49450b26b3cca59926981#diff-b45641aff6ccf12e4c132fb238aea362e840a9f8e2b54938186dd92f5e218edb);
+.mail::before {
+  content: "";
+  background-color: url(https://github.com/MBojarska/goit-hw-04/commit/f501512bab790ba89bc49450b26b3cca59926981#diff-b45641aff6ccf12e4c132fb238aea362e840a9f8e2b54938186dd92f5e218edb);
 }
 
 .contact {
@@ -249,6 +250,9 @@ h3 {
 .lorem > li {
   width: 270px;
   padding-right: 30px;
+}
+.lorem h3 {
+  padding-top: 30px;
 }
 .lorem p {
   font-size: 14px;
@@ -310,6 +314,13 @@ h3 {
 
   letter-spacing: 0.03em;
   color: var(--agency-mediumgrey);
+}
+.our-clients svg
+{
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1bb;
+  border-radius: 8px;
 }
 .contact-footer {
   padding-left: 15px;
@@ -418,6 +429,11 @@ h3 {
   height: 404px;
   background-color: var(--reg-white);
   border: solid 1px var(--borders);
+}
+.works > li:hover,
+.works > li:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .works-container {
   padding: 0 15px;
