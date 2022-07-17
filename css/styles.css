@@ -18,7 +18,7 @@
   --header-border: #ececec;
   --borders: #eeeeee;
   --agency-background: #202020;
-  --agency-svg-grey: #afb1b8;
+  --agency-svg-grey: #F5F4FA;
   --agency-svg-background: rgba(255, 255, 255, 0.1);
 }
 body {
@@ -31,12 +31,18 @@ body {
   height: 32px;
   width: 32px;
 padding-right: 10px;
-
 }
+
 
 .icon-contact:hover,
 .icon-contact:focus{
   fill: var(--agency-blue)
+}
+.lorem-icon{
+  width: 270px;
+  height: 120px;
+  background-color: var(--agency-svg-grey);
+  gap: 30px;
 }
 .container {
   width: 1200px;
