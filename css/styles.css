@@ -315,6 +315,15 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--agency-mediumgrey);
 }
+.our-clients {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.client {
+  display: flex;
+  width: 170px;
+}
 .our-clients svg
 {
   width: 170px;
@@ -322,6 +331,7 @@ h3 {
   border: 1px solid #afb1bb;
   border-radius: 8px;
 }
+
 .contact-footer {
   padding-left: 15px;
   font-size: 14px;
