@@ -263,7 +263,7 @@ h3 {
 }
 .card {
   width: 260px;
-  height: 368px;
+  height: 428px;
   background-color: var(--reg-white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -298,6 +298,33 @@ h3 {
 
   color: var(--agency-mediumgrey);
 }
+.social-team{  
+  width: 206px;
+  margin-top: 16px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;}
+
+  .social-team-item{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    fill: var(--agency-mediumgrey)
+
+  }
+  .social-team-item svg {
+    border-radius: 50%;
+    padding: 5px;
+  }
+  .social-team-item svg:hover {
+    fill: var(--reg-white);
+    background-color: var(--agency-blue);
+    cursor: pointer;
+  }
+
 .projects h4 {
   font-weight: 700;
   font-size: 18px;
@@ -340,6 +367,8 @@ h3 {
 
 .our-clients svg:hover {
   border: 1px solid #2196f3;
+  fill: #2196f3;
+  cursor: pointer;
 }
 
 .contact-footer {
@@ -383,6 +412,11 @@ h3 {
   height: 252px;
   background: var(--agency-grey);
 }
+.adress-footer-container{
+margin-left: 90px;
+margin-right: 0;
+width: 260px;
+}
 .webstudio-bottom {
   display: block;
   padding-top: 60px;
@@ -422,45 +456,46 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--reg-black);
 }
-.join-us {
-  display: flex;
-}
 
 .social-footer {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 10px;
 }
-.social-footer-item {
-  width: 270px;
-  padding-right: 30px;
+.social-footer-item {  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
 }
 .social-footer {
   display: flex;
+  margin-top: 20px;
+}
+.join-us{
   width: 206px;
   height: 80px;
-  margin-top: 72px;
+  margin-left: 70px;
 }
 .join-us h4 {
   font-weight: 700;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: center;
   width: 200px;
+  height: 30px;
   display: block;
-  padding-top: 30px;
+  padding-top: 72px;
   color: #ffffff;
 }
 
 .social-footer-item {
-
   display: flex;
   justify-content: center;
 }
 .social-footer-item svg {
-  width: 44px;
-  height: 44px;
+
   fill: var(--reg-white);
   background-color: var(--agency-svg-background);
   border-radius: 50%;
@@ -468,6 +503,7 @@ h3 {
 }
 .social-footer-item svg:hover {
   background-color: var(--agency-blue);
+  cursor: pointer;
 }
 .social-footer-item svg* {
   fill: var(--reg-white);
