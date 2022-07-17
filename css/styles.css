@@ -188,10 +188,10 @@ nav a:hover {
 
   color: var(--agency-blue);
 }
-.mail::before {
+/* .mail::before {
   content: "";
   background-color: url(https://github.com/MBojarska/goit-hw-04/commit/f501512bab790ba89bc49450b26b3cca59926981#diff-b45641aff6ccf12e4c132fb238aea362e840a9f8e2b54938186dd92f5e218edb);
-}
+} */
 
 .contact {
   display: flex;
@@ -324,26 +324,23 @@ h3 {
   display: flex;
   width: 170px;
 }
-.our-clients svg 
-{
+.our-clients svg {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1bb;
   border-radius: 8px;
   padding: 15px 30px;
-
 }
-.client-icon *{
-  fill: #AFB1B8;
+.client-icon * {
+  fill: #afb1b8;
 }
-.client-icon:hover *{
-  fill: #2196F3;
+.client-icon:hover * {
+  fill: #2196f3;
 }
 
 .our-clients svg:hover {
-  border: 1px solid #2196F3;
+  border: 1px solid #2196f3;
 }
-
 
 .contact-footer {
   padding-left: 15px;
@@ -382,6 +379,7 @@ h3 {
   color: var(--agency-blue);
 }
 .footer {
+  display: flex;
   height: 252px;
   background: var(--agency-grey);
 }
@@ -424,7 +422,55 @@ h3 {
   letter-spacing: 0.03em;
   color: var(--reg-black);
 }
+.join-us {
+  display: flex;
+}
 
+.social-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.social-footer-item {
+  width: 270px;
+  padding-right: 30px;
+}
+.social-footer {
+  width: 206px;
+  height: 80px;
+  margin-top: 72px;
+}
+.join-us h4 {
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+  padding-top: 30px;
+  line-height: 16px;
+  line-height: 16px;
+
+  color: #ffffff;
+}
+
+.social-footer-item {
+  display: flex;
+  justify-content: center;
+}
+.social-footer-item svg {
+  width: 44px;
+  height: 44px;
+  background-color: var(--agency-svg-background);
+  border-radius: 50%;
+}
+.social-footer-item svg:hover {
+  background-color: var(--agency-blue);
+}
+.social-footer-item svg* {
+  fill: var(--reg-white);
+}
 /* portfolio */
 .portfolio-header {
   display: block;
