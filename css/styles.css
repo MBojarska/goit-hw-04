@@ -324,13 +324,26 @@ h3 {
   display: flex;
   width: 170px;
 }
-.our-clients svg
+.our-clients svg 
 {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1bb;
   border-radius: 8px;
+  padding: 15px 30px;
+
 }
+.client-icon *{
+  fill: #AFB1B8;
+}
+.client-icon:hover *{
+  fill: #2196F3;
+}
+
+.our-clients svg:hover {
+  border: 1px solid #2196F3;
+}
+
 
 .contact-footer {
   padding-left: 15px;
