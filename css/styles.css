@@ -101,6 +101,7 @@ h1 {
   background-image: url(https://github.com/MBojarska/goit-hw-04/blob/main/images/background1.jpg?raw=true);
   background-position: cover;
   max-width: 1600px;
+  box-shadow: inset 0px 0px 300px 300px rgba(47, 48, 58, 0.4);
 }
 a {
   text-decoration: none;
