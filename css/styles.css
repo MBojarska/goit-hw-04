@@ -32,7 +32,10 @@ body {
   width: 32px;
 padding-right: 10px;
 }
-
+/* .mail::before{
+  content: " ";
+  background-image: url(data:./image/icon.svg#icon-envelop);
+} */
 
 .icon-contact:hover,
 .icon-contact:focus{
