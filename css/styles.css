@@ -382,6 +382,7 @@ h3 {
   /* or 171% */
   letter-spacing: 0.03em;
   color: #fff;
+  margin-top: 5px;
 }
 .contact-footer a {
   border-radius: 50%;
